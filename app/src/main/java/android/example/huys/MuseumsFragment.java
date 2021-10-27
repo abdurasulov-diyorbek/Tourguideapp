@@ -26,10 +26,10 @@ public class MuseumsFragment extends androidx.fragment.app.Fragment {
 
         // Create a list of Museums
         final ArrayList<Location> museum = new ArrayList<>();
-        museum.add(new Location("National art museum", "Beautiful, national art works", R.drawable.art_museum, "9am-7pm", "Street RakatBoshi, Chorsu"));
-        museum.add(new Location("National Museum", "National history", R.drawable.national_museum, "8am-8pm", "Street Ulugbek, Chilonzor"));
-        museum.add(new Location("Polytechnic Museum", "History of Auto industry", R.drawable.polytechnical_museum, "9am-8pm", "Street Niyoziy, Chorsu"));
-        museum.add(new Location("Timurlane Museum", "Great Timur dynasty museum", R.drawable.temur_museum, "9am-9pm", "Street Olmazor, Sergeli"));
+        museum.add(new Location(getResources().getString(R.string.national_art_museum), getResources().getString(R.string.national_art_desc), R.drawable.art_museum, getResources().getString(R.string.art_museum_time), getResources().getString(R.string.art_museum_loc)));
+        museum.add(new Location(getResources().getString(R.string.national_museum), getResources().getString(R.string.national_museum_desc), R.drawable.national_museum, getResources().getString(R.string.national_museum_time), getResources().getString(R.string.national_museum_loc)));
+        museum.add(new Location(getResources().getString(R.string.polytechnic_museum), getResources().getString(R.string.polytechnic_museum_desc), R.drawable.polytechnical_museum, getResources().getString(R.string.polytechnical_museum_time), getResources().getString(R.string.polytechnical_museum_loc)));
+        museum.add(new Location(getResources().getString(R.string.timurlane_museum), getResources().getString(R.string.timurlane_museum_desc), R.drawable.temur_museum, getResources().getString(R.string.temur_museum_time), getResources().getString(R.string.temur_museum_loc)));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), R.layout.list_item, museum, R.color.primary_color);
 

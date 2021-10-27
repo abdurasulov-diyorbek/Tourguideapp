@@ -26,13 +26,13 @@ public class RestaurantsFragment extends androidx.fragment.app.Fragment {
 
         // Create a list of restaurants
         final ArrayList<Location> restaurant = new ArrayList<>();
-        restaurant.add(new Location("Affresco", "Italian foods", R.drawable.affresco_res, "7am-11pm", "74, Amir Temur st"));
-        restaurant.add(new Location("Afsona restaurant", "National foods", R.drawable.afsona_restaurant, "5am-12am", "122, Yunus Rajabiy st"));
-        restaurant.add(new Location("Anhor restaurant", "National foods", R.drawable.anhor_res, "6am-10pm", "11 Huvaydo st"));
-        restaurant.add(new Location("Caravan", "European foods", R.drawable.caravan_restaurant, "7.30am-10pm", "54 Malika st"));
-        restaurant.add(new Location("La opera ristorante", "Italian foods", R.drawable.l_opera_ristorante, "9am-11pm", "111 Uvaysiy st"));
-        restaurant.add(new Location("National foods", "Restaurant for family", R.drawable.restaurant, "5am-12am", "90, Jiyda st"));
-        restaurant.add(new Location("Silk Road", "Asian foods", R.drawable.silk96_res, "6am-10pm", "88, Chorsu st"));
+        restaurant.add(new Location(getResources().getString(R.string.Affresco), getResources().getString(R.string.Affresco_desc), R.drawable.affresco_res, getResources().getString(R.string.Affresco_time), getResources().getString(R.string.Affresco_loc)));
+        restaurant.add(new Location(getResources().getString(R.string.afsona), getResources().getString(R.string.afsona_desc), R.drawable.afsona_restaurant, getResources().getString(R.string.afsona_time), getResources().getString(R.string.afsona_loc)));
+        restaurant.add(new Location(getResources().getString(R.string.anhor), getResources().getString(R.string.anhor_desc), R.drawable.anhor_res, getResources().getString(R.string.anhor_time), getResources().getString(R.string.anhor_loc)));
+        restaurant.add(new Location(getResources().getString(R.string.caravan), getResources().getString(R.string.caravan_desc), R.drawable.caravan_restaurant, getResources().getString(R.string.caravan_time), getResources().getString(R.string.caravan_loc)));
+        restaurant.add(new Location(getResources().getString(R.string.opera), getResources().getString(R.string.opera_desc), R.drawable.l_opera_ristorante, getResources().getString(R.string.opera_time), getResources().getString(R.string.opera_loc)));
+        restaurant.add(new Location(getResources().getString(R.string.national_foods), getResources().getString(R.string.national_desc), R.drawable.restaurant, getResources().getString(R.string.national_time), getResources().getString(R.string.national_loc)));
+        restaurant.add(new Location(getResources().getString(R.string.silk_road), getResources().getString(R.string.silk_desc), R.drawable.silk96_res, getResources().getString(R.string.silk_time), getResources().getString(R.string.silk_loc)));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), R.layout.list_item, restaurant, R.color.primary_color);
 

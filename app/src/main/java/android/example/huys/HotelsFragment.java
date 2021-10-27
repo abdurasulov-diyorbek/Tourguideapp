@@ -26,11 +26,11 @@ public class HotelsFragment extends androidx.fragment.app.Fragment {
 
         // Create a list of hotels
         final ArrayList<Location> hotel = new ArrayList<>();
-        hotel.add(new Location("City Palace Hotel", "\u2605\u2605\u2605\u2606\u2606", R.drawable.city_palace_hotel, "$121+", "Amir Temur Street, 15, Tashkent"));
-        hotel.add(new Location("Ichan Qala Premium", "\u2605\u2605\u2605\u2605\u2605", R.drawable.ichan_qala_premium, "$142+", "Tafakkur Street 68, Tashkent"));
-        hotel.add(new Location("International Hotel Tashkent", "\u2605\u2605\u2605\u2605\u2605", R.drawable.international_hotel_tashkent, "$122+", "107A Amir Temur Avenue, Tashkent"));
-        hotel.add(new Location("Le Grande Plaza", "\u2605\u2605\u2605\u2605\u2606", R.drawable.le_granda_plaza, "$58+", "2,Uzbekiston Ovozi Str., 2, Tashkent"));
-        hotel.add(new Location("Ramada Tashkent", "\u2605\u2605\u2605\u2605\u2606", R.drawable.ramada_hotel, "$82+", "1 Abdullah Kodiry St, Tashkent"));
+        hotel.add(new Location(getResources().getString(R.string.palace), "\u2605\u2605\u2605\u2606\u2606", R.drawable.city_palace_hotel, "$121+", getResources().getString(R.string.palace_loc)));
+        hotel.add(new Location(getResources().getString(R.string.premium), "\u2605\u2605\u2605\u2605\u2605", R.drawable.ichan_qala_premium, "$142+", getResources().getString(R.string.premiumloc)));
+        hotel.add(new Location(getResources().getString(R.string.international), "\u2605\u2605\u2605\u2605\u2605", R.drawable.international_hotel_tashkent, "$122+", getResources().getString(R.string.internationalloc)));
+        hotel.add(new Location(getResources().getString(R.string.plaza), "\u2605\u2605\u2605\u2605\u2606", R.drawable.le_granda_plaza, "$58+", getResources().getString(R.string.plazaloc)));
+        hotel.add(new Location(getResources().getString(R.string.ramada), "\u2605\u2605\u2605\u2605\u2606", R.drawable.ramada_hotel, "$82+", getResources().getString(R.string.ramadaloc)));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), R.layout.list_item, hotel, R.color.primary_color);
 

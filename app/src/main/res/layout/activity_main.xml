@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/museums"
+        style="@style/CategoryStyle"
+        android:background="@drawable/text_view_background"
+        android:text="@string/museums"
+        />
+
+    <TextView
+        android:id="@+id/hotels"
+        style="@style/CategoryStyle"
+        android:background="@drawable/text_view_background"
+        android:text="@string/hotels" />
+
+    <TextView
+        android:id="@+id/resturants"
+        style="@style/CategoryStyle"
+        android:background="@drawable/text_view_background"
+        android:text="@string/restaurants" />
+
+    <TextView
+        android:id="@+id/map"
+        style="@style/CategoryStyle"
+        android:background="@drawable/text_view_background"
+        android:text="@string/tashkent_map" />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/Huys/app/src/main/res/drawable/textViewsBackground.xml" value="0.2203125" />
+        <entry key="..\:/Android/Huys/app/src/main/res/drawable/text_view_background.xml" value="0.2203125" />
+        <entry key="..\:/Android/Huys/app/src/main/res/layout/activity_category.xml" value="0.12771739130434784" />
+        <entry key="..\:/Android/Huys/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/Android/Huys/app/src/main/res/layout/fragment_full__info_.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/Huys/app/src/main/res/layout/fragment_restauranst.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/Huys/app/src/main/res/layout/full_info_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/Huys/app/src/main/res/layout/list_item.xml" value="0.12771739130434784" />
+        <entry key="..\:/Android/Huys/app/src/main/res/layout/location_list.xml" value="0.11956521739130435" />
+        <entry key="..\:/Android/Huys/app/src/main/res/layout/word_list.xml" value="0.1213768115942029" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8 (2)" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

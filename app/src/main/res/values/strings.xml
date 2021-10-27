@@ -7,5 +7,13 @@
     <string name="hotels">Hotels</string>
     <string name="restaurants">Restaurants</string>
     <string name="tashkent_map">Tashkent map</string>
+    <string name="national_art_museum">National Art Museum</string>
+    <string name="national_art_desc">Beautiful, national art works</string>
+    <string name="national_museum">National Museum</string>
+    <string name="national_museum_desc">National history</string>
+    <string name="polytechnic_museum">Polytechnic museum</string>
+    <string name="polytechnic_museum_desc">History of Auto industry</string>
+    <string name="timurlane_museum">Timurlane Museum</string>
+    <string name="timurlane_museum_desc">Great Timur dynasty museum</string>
 
 </resources>

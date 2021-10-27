@@ -34,7 +34,6 @@ public class HotelsFragment extends androidx.fragment.app.Fragment {
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), R.layout.list_item, hotel, R.color.primary_color);
 
-
         ListView listView = rootView.findViewById(R.id.list);
 
         listView.setAdapter(adapter);

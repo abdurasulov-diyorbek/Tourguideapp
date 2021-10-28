@@ -18,21 +18,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Museums"
-            android:exported="true"
-            android:label="Museums"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".Restaurants"
-            android:exported="true"
-            android:label="Restaurants"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".Hotels"
-            android:exported="true"
-            android:label="Hotels"
-            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>

@@ -7,29 +7,13 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/museums"
-        style="@style/CategoryStyle"
-        android:background="@drawable/text_view_background"
-        android:text="@string/museums"
-        />
-
-    <TextView
-        android:id="@+id/hotels"
-        style="@style/CategoryStyle"
-        android:background="@drawable/text_view_background"
-        android:text="@string/hotels" />
-
-    <TextView
-        android:id="@+id/resturants"
-        style="@style/CategoryStyle"
-        android:background="@drawable/text_view_background"
-        android:text="@string/restaurants" />
-
-    <TextView
-        android:id="@+id/map"
-        style="@style/CategoryStyle"
-        android:background="@drawable/text_view_background"
-        android:text="@string/tashkent_map" />
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"/>
 
 </LinearLayout>

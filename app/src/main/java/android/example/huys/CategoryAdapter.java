@@ -8,8 +8,9 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-public class CategoryAdapter extends FragmentPagerAdapter{
+public class CategoryAdapter extends FragmentPagerAdapter {
     private Context mcontext;
+
     public CategoryAdapter(Context context, FragmentManager fm) {
         super(fm);
         mcontext = context;
@@ -21,8 +22,10 @@ public class CategoryAdapter extends FragmentPagerAdapter{
             return new MuseumsFragment();
         } else if (position == 1) {
             return new RestaurantsFragment();
-        } else{
+        } else if(position == 2){
             return new HotelsFragment();
+        } else {
+            return new MallsFragment();
         }
     }
 
@@ -32,13 +35,15 @@ public class CategoryAdapter extends FragmentPagerAdapter{
             return mcontext.getString(R.string.museums);
         } else if (position == 1) {
             return mcontext.getString(R.string.restaurants);
-        } else {
+        } else if (position == 2) {
             return mcontext.getString(R.string.hotels);
+        } else {
+            return mcontext.getString(R.string.malls);
         }
     }
 
     @Override
     public int getCount() {
-        return 3;
+        return 4;
     }
 }

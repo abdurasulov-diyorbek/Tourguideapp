@@ -61,5 +61,16 @@
     <string name="internationalloc">107A Amir Temur Avenue, Tashkent</string>
     <string name="plazaloc">2,Uzbekiston Ovozi Str., 2, Tashkent</string>
     <string name="ramadaloc">1 Abdullah Kodiry St, Tashkent</string>
+    <string name="malls">Malls</string>
+    <string name="planet">Mega Planet</string>
+    <string name="samarkand">Samarkand darvoza</string>
+    <string name="next">Mall Next</string>
+    <string name="planetd">A lot of stores in one place</string>
+    <string name="samarkandd">New fashion is always here</string>
+    <string name="nextd">Mall for all family persons</string>
+    <string name="planetl">Karima st, 155</string>
+    <string name="samarkandl">Lola grand st, Sergeli</string>
+    <string name="nextl">Broadway, 45</string>
+
 
 </resources>
